@@ -10,7 +10,7 @@ namespace EmployeeOdev
     {
         static void Main(string[] args)
         {
-            basadon:
+            backtotop:
             Console.Write("\n1.Salaried Employee \n2.Hourly Employee \n3.Comission Employee \n4.Base Plus Commision Employee\nPlease Choose Your Criteria: ");
             string choose = Console.ReadLine();
             if (choose=="1")
@@ -43,7 +43,7 @@ namespace EmployeeOdev
             {
                 Console.WriteLine("You are being redirected to the home page...");
                 
-                goto basadon;
+                goto backtotop;
             }
             else
             {
