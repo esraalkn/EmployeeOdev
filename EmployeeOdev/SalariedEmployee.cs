@@ -8,7 +8,7 @@ namespace EmployeeOdev
 {
     public class SalariedEmployee:Employee
     {
-        public double weeklySalary { get; set; }
+        public double weeklyWorked { get; set; }
 
         public SalariedEmployee()
         {
@@ -17,8 +17,8 @@ namespace EmployeeOdev
         public override void earning()
         {
             Console.Write("Enter the Number of Weeks You Worked: ");
-            this.weeklySalary = Convert.ToDouble(Console.ReadLine());
-            this._earnings = weeklySalary*490;
+            this.weeklyWorked = Convert.ToDouble(Console.ReadLine());
+            this._earnings = weeklyWorked*490;
             Console.WriteLine("Your salary is $" + this._earnings );
         }
 
